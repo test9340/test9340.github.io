@@ -9,9 +9,25 @@
             background-color: #333;
             color: white;
             padding: 15px;
-            text-align: center;
             font-size: 24px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
         }
+
+        .buttons {
+            display: flex;
+            gap: 10px;
+        }
+
+        .buttons button {
+            background-color: #555;
+            color: white;
+            border: none;
+            padding: 8px 12px;
+            cursor: pointer;
+        }
+
         p {
             font-size: 18px;
             text-align: center;
@@ -23,6 +39,14 @@
 
 <header>
     Header
+    <div class="buttons">
+        <button>One</button>
+        <button>Two</button>
+        <button>Three</button>
+        <button>Four</button>
+        <button>Five</button>
+        <button>Six</button>
+    </div>
 </header>
 
 <p>text</p>
