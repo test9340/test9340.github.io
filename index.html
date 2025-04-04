@@ -126,15 +126,8 @@
     slideIndex = index;
   }
 
-  function autoSlide() {
-    slideIndex++;
-    if (slideIndex >= slides.length) slideIndex = 0;
-    showSlide(slideIndex);
-    setTimeout(autoSlide, 3000);
-  }
-
   showSlide(slideIndex);
-  autoSlide();
+  
 </script>
 
 </body>
